@@ -108,11 +108,11 @@ input, select {
 /* HEADER */
 
 body {
-	background-color: #f3f3f3;
+	/* background-color: #f3f3f3; */
 }
 
 header {
-	background-color: rgba(255, 197, 216, .7);
+	background-color: rgba(255, 255, 255, .7);
 	width: 100%;
 	height: 100px;
 }
@@ -150,7 +150,9 @@ header nav ul li a{
 	font-size: 17px;
 	color: #111;
 }
-
+ header nav ul li a:hover{
+   color: pink;
+ }
 /* INDEX */
 
 .index-banner {
@@ -179,4 +181,22 @@ header nav ul li a{
 	text-align: center;
 	font-weight: 100;
 	text-shadow:2px 2px 8px #111;
+}
+
+.index-holders div{
+	margin: 20px 20px 20px;
+	width: calc(100% - 40px);
+	height: 100px;
+	background-color: #fde9e2;
+}
+
+.index-holders div h3 {
+	font-family: 'Arial', sans-serif;
+	font-size: 30px;
+	color: #FFF;
+	text-align: center;
+	font-weight: 500;
+  text-transform: uppercase;
+  line-height: 100px;
+  text-shadow: 2px 2px 5px #111;
 }
